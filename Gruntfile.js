@@ -6,17 +6,27 @@ const autoprefixer = require('autoprefixer');
 const pkg = require('./package.json');
 
 const SWATCHES = [
+                           
+  'bolt',
   'brite',
+  'btcn',
+  'calabaza',
   'cerulean',
   'cosmo',
   'cyborg',
   'darkly',
   'flatly',
+  'hoff',
   'journal',
+  'kdo2',
+  'kdo_flatly',
+  'kunsch',
   'litera',
   'lumen',
   'lux',
+  'malibu',
   'materia',
+  'minim',
   'minty',
   'morph',
   'pulse',
@@ -25,7 +35,9 @@ const SWATCHES = [
   'simplex',
   'sketchy',
   'slate',
+  'slate_accessibility_ready',
   'solar',
+  'sonic',
   'spacelab',
   'superhero',
   'united',
@@ -164,7 +176,7 @@ module.exports = grunt => {
     },
     connect: {
       options: {
-        hostname: 'localhost',
+        host: '0.0.0.0',
         livereload: 35729,
         port: 3000,
         open: true
