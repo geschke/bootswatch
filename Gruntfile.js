@@ -5,8 +5,7 @@ const sass = require('sass');
 const autoprefixer = require('autoprefixer');
 const pkg = require('./package.json');
 
-const SWATCHES = [
-                           
+const SWATCHES = [                    
   'bolt',
   'brite',
   'btcn',
